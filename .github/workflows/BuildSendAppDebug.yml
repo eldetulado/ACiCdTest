@@ -40,7 +40,7 @@ jobs:
       - uses: actions/upload-artifact@v1
         with:
           name: app-debug.apk
-          path: ./app/build/outputs/apk/my_debug 
+          path: ./app/build/outputs/apk/debug 
           
       - name: List artifacts
         run: ls -la      
